@@ -1,0 +1,154 @@
+
+.navbar{
+    border-bottom: black solid;
+    border-radius: 2px;
+    background-color: #000000;
+}
+
+.contenedor h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #44a444;
+}
+
+.contenedor p{
+    font-size: 25px;
+
+}
+
+.contenedor ul{
+    font-size: 25px;
+}
+
+#nav-text{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+#nav-text:hover{
+    color: #44a444;
+}
+
+.banner-bg{
+    height: 94vh;
+    background-image: url("/img/banner_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.735)
+}
+
+.banner-text{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgba(226, 223, 223, 0.866);
+    width: 90%;
+    padding-left: 15%;
+}
+
+.banner-text h1{
+    color: #44a444;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+#banner-img{
+    width: 94vh;
+}
+
+.background-info{
+    background-color: #2d2d2d;
+    padding: 20px;
+}
+
+.info{
+    color: white;
+    padding: 20px;
+}
+
+.img-fluid{
+    border-radius: 8px;
+}
+
+.products{
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    background-color: #262626;
+    padding: 20px;
+}
+
+.product-container{
+    border-radius: 10px;
+    margin: 4.1%;
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.product-container h3{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.product-container img{
+    width: 50%;
+
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+footer h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #44a444;
+
+}
+
+.credit{
+    color: white;
+    background-image: url("/img/ilustrations/bgtextura.jpg");
+    height: 55vh;
+}
+
+.credit button{
+    background-color: #44a444;
+    border: none;
+}
+
+.credit button:hover{
+    background-color: #2d2d2d;
+}
+
+.contact label{
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+
+
+.contact button{
+    margin-top: 15px;
+}
+
+#credit{
+    padding-top: 40px;
+    color: #262626;
+}
+
+@media (max-width: 768px) {
+    #banner-img{
+        display: none;
+    }
+}
