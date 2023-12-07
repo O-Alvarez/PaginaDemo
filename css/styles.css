@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
 .navbar{
     border-radius: 2px;
     background-color: white;
@@ -15,7 +17,7 @@
 .contenedor h2{
     font-family: "Sofia Sans Condensed", sans-serif;
     font-size: 50px;
-    color: #444444;
+    color: #000000;
 }
 
 .contenedor p{
@@ -60,21 +62,23 @@ border-radius: 8px;
 }
 
 .banner-content h1{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-size: 70px;
     text-align: center;
 }
 
+/*
 .background{
    background-image: url("../background.jpg");
    background-position: absolute;
    background-repeat: no-repeat;
+   background-size: cover;
    background-attachment: fixed;
 }
 .background-color{
     background-color: #0d6dfd3a;
 }
-
+*/
 .info-icon{
     display: flex;
     justify-content: center;
@@ -110,6 +114,7 @@ border-radius: 8px;
 }
 
 .products h2{
+    font-size: 60px;
     color: white;
     text-align: center;
 }
@@ -125,13 +130,13 @@ border-radius: 8px;
 
 .product-container:hover{
    border: #287CFA solid 4px;
- 
+   color: #287CFA;
 }
 
 .product-container h3{
-    font-family: 'Bebas Neue', sans-serif;
-    margin-top: 50px;
-    font-size: 23px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    padding-top: 5%;
+    font-size: 30px;
 }
 
 .product-container img{
@@ -148,15 +153,19 @@ footer{
 }
 
 footer h2{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Sofia Sans Condensed", sans-serif;
     color: white;
 
 }
 
 .credit{
+    background-color: #444444;
     color: white;
-    background-image: url("bgtextura.jpg");
-    height: 55vh;
+    height: 60vh;
+}
+
+.credit h2{
+    color: white;
 }
 
 .credit button{
@@ -165,12 +174,13 @@ footer h2{
 }
 
 .credit button:hover{
-    background-color: #2d2d2d;
+    background-color: #287CFA;
 }
+
 
 .contact label{
     padding-top: 15px;
-    font-family:sans-serif;
+    font-family: "Sofia Sans Condensed", sans-serif;
     font-size: 18px;
 }
 
@@ -190,6 +200,25 @@ footer h2{
     list-style: none;
     padding: 0;
 }
+.benefits_img{
+    border: #000000 solid 2px; 
+    width: 100%;
+    border-radius: 3%;
+}
+.benefits{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.benefits .row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
 
 benefits-list li {
     display: flex; 
@@ -204,7 +233,14 @@ benefits-list li {
     width: 35px;
 } 
 
+#button{
+    background-color: #44a444;
+    border: none;
+}
 
+#button:hover{
+    background-color: #287CFA;
+}
 
 
 
